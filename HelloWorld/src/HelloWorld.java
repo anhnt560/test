@@ -7,6 +7,8 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.*;
 
+//hello world
+
 @SuppressLint("ShowToast")
 public class HelloWorld extends Activity {
 	private Button closeButton;
@@ -15,17 +17,18 @@ public class HelloWorld extends Activity {
     public void onCreate(Bundle savedInstanceState) {
     	super.onCreate(savedInstanceState);
     	this.setContentView(R.layout.layout);
-    	  this.closeButton = (Button)this.findViewById(R.id.button);
-    	  this.closeButton.setOnClickListener(new View.OnClickListener() {
+    	 this.closeButton = (Button)this.findViewById(R.id.button);
+    	 this.closeButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				MessageBox("Hello world - from CongNghe365.com");
 			}
 		});        
         
-        /*
-        TextView text = new TextView(this);
-        text.setText("Hello World!");
-        setContentView(text);*/
+    /*
+    TextView text = new TextView(this);
+    text.setText("Hello World!");
+    setContentView(text);
+    */
     }
     public void MessageBox(String message)
     {
