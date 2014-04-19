@@ -34,7 +34,7 @@ public class HelloWorld extends Activity {
     {
        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }  
-    //hehe
+    //haha
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_main, menu);
